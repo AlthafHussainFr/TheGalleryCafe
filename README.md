@@ -1,0 +1,1 @@
+this is the restaurent website full devoloped by php and html .once you want to acces this page you should devolope your databse in wampserver and if anyone want a database please mail to me althafhussainfr@gmail.com 
