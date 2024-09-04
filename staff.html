@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gallery Café</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-brand {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-nav li {
+            margin-left: 1rem;
+        }
+
+        .navbar-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .hero-section {
+            background: url('sign.jpg') no-repeat center center/cover;
+            color: #000000;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .hero-section .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: ;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            background-color: #45391b;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            background-color: #4b3026;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">The Gallery Cafe</a>
+            <ul class="navbar-nav">
+                
+                <li><a href="add_sl_meal.php">Add Sri Lankan Meals</a></li>
+                <li><a href="add_it_meal.php">Add Italian Meals</a></li>
+                <li><a href="add_cn_meal.php">Add Chinese Meals</a></li>
+                <li><a href="add_Bevarages.php">Add Beverages</a></li>
+                <li><a href="index.html">Logout</a></li>
+                
+                
+            </ul>
+        </div>
+    </nav>
+    
+    <header id="home" class="hero-section">
+        <div class="container">
+            <h1>Welcome to staff dashboard</h1>
+            <p></p>
+            <a href="view.php" class="btn">Manage Orders</a>
+        </div>
+    </header>
+    
+    <!-- Autres sections ici -->
+
+</body>
+</html>
